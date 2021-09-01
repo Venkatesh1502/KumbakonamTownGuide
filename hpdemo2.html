@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Home page</title>
+<style>
+body {
+background-color: grey;
+}
+.mydiv {
+background-color: lightblue;
+margin-top: -10px;
+margin-left: -10px;
+margin-right: -10px; 
+height: 150px; 
+}
+.Textwrap {
+margin-top: -150px;
+margin-left: -10px;
+}
+.Textwrap2 {
+float: right;
+margin-top: -150px;
+margin-right: -10px;
+}
+
+.button1 {
+  background-color: lawngreen;
+  border: none;
+  color: red;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: lawngreen;
+  border: none;
+  color: blue;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+.slider {
+width: 1350px;
+height: 500px;
+background-image: url("e://ktc/ktc2.jpg");
+background-size: cover;
+animation: slide 20s infinite;
+}
+@keyframes slide {
+25% {
+background-image: url("e://html ktc/saiv.jpg");
+}
+50% {
+background-image: url("e://html ktc/saibg.jpg");
+}
+75% {
+background-image: url("e://html ktc/risp.jpg");
+}
+100% {
+background-image: url("e://ktc/ktc2.jpg");
+}
+}
+
+
+
+</style>
+<head>
+<body>
+<marquee direction="left" speed="Slow" onmouseleave="this.start();" onmouseover="this.stop();">Kumbakonam Town Guide</marquee>
+
+<div class="mydiv">
+<center><span style="color:aqua"><h1><br/>Kumbakonam Town Guide</h1></span></center>
+<br/><br/>
+</div>
+<img class="Textwrap" src="e://html ktc/1234.webp" width="250" height="150" alt="">
+
+<img class="Textwrap2" src="e://html ktc/kttc.jpg" width="250" height="150" alt="">
+<br/>
+
+<input type="button" class="button1" onclick="window.location.href = 'file:///E:/html%20ktc/school.html';" value="Schools"> 
+<input type="button" class="button2" onclick="window.location.href = 'file:///E:/html%20ktc/college.html';" value="Colleges">
+<input type="button" class="button1" onclick="window.location.href = 'file:///E:/html%20ktc/travelling%20places.html';" value="Travelling Places">
+<input type="button" class="button2" onclick="window.location.href = 'file:///E:/html%20ktc/Computer%20Center.html';" value="Computer Course Centre">
+<input type="button" class="button1" onclick="window.location.href = 'file:///E:/html%20ktc/Lodges.html';" value="Lodges">
+<input type="button" class="button2" onclick="window.location.href = 'file:///E:/html%20ktc/banks.html';" value="Banks">
+<input type="button" class="button1" onclick="window.location.href = 'file:///E:/html%20ktc/Hospitals.html';" value="Hospitals">
+<input type="button" class="button2" value="Silk Sarees">
+<br/><br/>
+<div class="slider">
+</div>
+</body>
+</html>
+
+
+

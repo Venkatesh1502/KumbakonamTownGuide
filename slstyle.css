@@ -1,0 +1,26 @@
+body {
+margin: 0;
+padding: 0;
+background: brown;
+}
+.slider {
+width: 800px;
+height: 400px;
+background-image: url("e://html ktc/saiv.jpg");
+margin: 100px auto;
+animation: slide 20s infinite;
+}
+@keyframes slide {
+25% {
+background-image: url("e://html ktc/resorts.jpg");
+}
+50% {
+background-image: url("e://html ktc/saibg.jpg");
+}
+75% {
+background-image: url("e://html ktc/risp.jpg");
+}
+100% {
+background-image: url("e://html ktc/saiv.jpg");
+}
+}
